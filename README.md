@@ -22,3 +22,8 @@ $ cp .env.example .env
 ```
 
 Set your environment vaiables in the `.env` file. Like `OPENAI_API_KEY` value.
+
+## Run the FastAPI server 
+```bash 
+$ python3 -m uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```

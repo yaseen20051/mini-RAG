@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "d7cd9694-6661-4666-be42-f0597a78aa84",
+		"name": "tut-002",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45118468",
+		"_collection_link": "https://yaseen-6097.postman.co/workspace/mini-RAG-tuts~fe9cda3c-abf5-4d9d-8499-6b086433fbd7/collection/45118468-d7cd9694-6661-4666-be42-f0597a78aa84?action=share&source=collection_link&creator=45118468"
+	},
+	"item": [
+		{
+			"name": "welcome-request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_url}}/welcome",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"welcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reload-testing",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api_url",
+			"value": ""
+		},
+		{
+			"value": "",
+			"type": "default"
+		}
+	]
+}
