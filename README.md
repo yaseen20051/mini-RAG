@@ -1,7 +1,7 @@
 # mini-RAG
 Machine Learning in production
 
-## setup ypur command line 
+## setup your command line 
 
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n[\033[00m\]\$ "
