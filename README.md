@@ -1,24 +1,8 @@
 # mini-RAG
 Machine Learning in production
 
-## setup ypur command line 
+## sepereate Routes from the main 
 
-```bash
-export PS1="\[\033[01;32m\]\u@\h:\w\n[\033[00m\]\$ "
-```
 
-## Installation 
+## the aim that main page the main it must not have so much details 
 
-### Install the required packages 
-
-```bash 
-$ pip install -r requirements.txt
-```
-
-### Setup the environment vaiables 
-
-```bash
-$ cp .env.example .env
-```
-
-Set your environment vaiables in the `.env` file. Like `OPENAI_API_KEY` value.
