@@ -1,8 +1,4 @@
 # mini-RAG
 Machine Learning in production
 
-## sepereate Routes from the main 
-
-
-## the aim that main page the main it must not have so much details 
-
+### we started to seperate things using the boiler plate approach so we move all about code inside the src and keep outside the settings or the things that tells about the settings of the project
